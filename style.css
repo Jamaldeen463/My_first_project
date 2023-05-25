@@ -1,0 +1,87 @@
+*{
+    margin: 4px;
+    padding: 0;
+    padding-right: 5px;
+}
+body{
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn{
+
+    from{
+        opacity: 0;
+        transform: rotateX('-10deg');
+    }
+    to{
+        opacity: 1;
+        transform: rotateX('1');
+    }
+}
+.gr8{
+    color: azure;
+    background-color: blue;
+    padding-left: 0px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    width: 100%;
+
+    
+}
+ul {
+    
+    background-color: aquamarine;
+    padding-top: 20px;
+    width: 100%;
+    position: fixed;
+    height: 20px;
+    padding-bottom: 10px;
+    
+
+}
+ul li{
+    display: inline-block;
+    line-height: 17px;
+    padding-inline: 20px;
+    font-size: larger; 
+    float: right;
+}
+ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bolder;
+}
+.prof{
+    color: blueviolet;
+    padding-top: 40;
+    
+}
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+a:hover{
+    color: red;
+    background-color: white;
+}
+.p3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.p4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.dv1{
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green    
+}
+.just{
+    justify-content: space-evenly;
+}
